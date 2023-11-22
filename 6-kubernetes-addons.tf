@@ -15,7 +15,7 @@ module "kubernetes_addons" {
     namespace  = "kube-system"
   }
 
-  enable_amazon_eks_aws_ebs_csi_driver = true
+  #enable_amazon_eks_aws_ebs_csi_driver = true
   # self_managed_aws_ebs_csi_driver_helm_config  = {
   #   description = "The AWS EBS CSI driver Helm chart deployment configuration"
   #   namespace  = "kube-system"
