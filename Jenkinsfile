@@ -15,7 +15,7 @@
         stage('terraform  action') {
             steps {
                 echo "Terraform action is --> ${action}"
-                sh ('terraform ${Action} --auto-approve -var-file=1-poc-env.auto.tfvars')
+                sh ('terraform ${Action} --auto-approve -var-file=1-poc-env.tfvars')
             }
         }
     }
