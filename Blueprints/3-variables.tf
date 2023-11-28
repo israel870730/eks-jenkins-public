@@ -43,4 +43,5 @@
 variable "tags" {
 description = "Tags for infrastructure resources."
 type        = map
+#default     = ""
 }
